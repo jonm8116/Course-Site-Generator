@@ -1,0 +1,18 @@
+
+{
+    "startHour":"7",
+    "endHour":"18",
+    "undergrad_tas":[
+        {
+            "name":"Jon",
+            "email":"email@fmc.com"
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"MONDAY",
+            "time":"7_30am",
+            "name":"Jon"
+        }
+    ]
+}

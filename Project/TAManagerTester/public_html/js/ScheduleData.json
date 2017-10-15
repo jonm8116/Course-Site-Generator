@@ -1,0 +1,51 @@
+
+{
+    "startingMondayMonth":"5",
+    "startingMondayDay":"1",
+    "endingFridayMonth":"6",
+    "endingFridayDay":"2",
+    "holidays":[
+        {
+            "month":"5",
+            "day":"17",
+            "title":"we know",
+            "link":"sdif"
+        }
+    ],
+    "lectures":[
+        {
+            "month":"5",
+            "day":"16",
+            "title":"idk",
+            "topic":"fwe",
+            "link":"we"
+        }
+    ],
+    "references":[
+    ],
+    "recitations":[
+        {
+            "month":"asd",
+            "day":"asd",
+            "title":"L08",
+            "topic":"L08"
+        },
+        {
+            "month":"sf",
+            "day":"sf",
+            "title":"R2",
+            "topic":"R2"
+        }
+    ],
+    "hws":[
+        {
+            "month":"5",
+            "day":"16",
+            "title":"due tonith",
+            "topic":"ewfwe",
+            "link":"wifoj",
+            "time":"sdf",
+            "criteria":"wef"
+        }
+    ]
+}

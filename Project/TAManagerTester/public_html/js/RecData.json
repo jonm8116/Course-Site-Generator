@@ -1,0 +1,19 @@
+
+{
+    "recitations":[
+        {
+            "section":"L08",
+            "day_time":"asd",
+            "location":"sdf",
+            "ta_1":"I know",
+            "ta_2":"I know"
+        },
+        {
+            "section":"R2",
+            "day_time":"sf",
+            "location":"fe",
+            "ta_1":"We all know",
+            "ta_2":"I know"
+        }
+    ]
+}

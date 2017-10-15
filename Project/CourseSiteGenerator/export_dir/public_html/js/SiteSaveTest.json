@@ -1,0 +1,113 @@
+
+{
+    "startHour":"0",
+    "endHour":"23",
+    "undergrad_tas":[
+        {
+            "name":"Jack Fishman",
+            "email":"jack@fishman.edu"
+        },
+        {
+            "name":"Hugh Jackman",
+            "email":"hugh.jack@aus.edu"
+        },
+        {
+            "name":"Brad pitt",
+            "email":"bradd.pitt@aus.edu"
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"MONDAY",
+            "time":"8_00am",
+            "name":"Jack"
+        },
+        {
+            "day":"THURSDAY",
+            "time":"2_00am",
+            "name":"Jack"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"10_30am",
+            "name":"Jack"
+        },
+        {
+            "day":"MONDAY",
+            "time":"10_00am",
+            "name":"Jack"
+        }
+    ],
+    "site_pages":[
+        {
+            "navbar":"Home",
+            "filename":"index.html",
+            "script":"homeBuilder.js"
+        },
+        {
+            "navbar":"Syllabus",
+            "filename":"syllabus.html",
+            "script":"syllabusBuilder.js"
+        }
+    ],
+    "recitations":[
+        {
+            "section":"R02",
+            "instructor":"O'Neil",
+            "day_time":"tues",
+            "location":"BLC",
+            "first_ta":"kathrynn",
+            "second_ta":"kelly"
+        },
+        {
+            "section":"L8",
+            "instructor":"Mckenna",
+            "day_time":"Wed",
+            "location":"New Cs",
+            "first_ta":"Banerjee",
+            "second_ta":"other banerjee"
+        }
+    ],
+    "schedules":[
+        {
+            "type":"holiday",
+            "date":"mon",
+            "title":"supper",
+            "topic":"food"
+        },
+        {
+            "type":"holiday",
+            "date":"mon",
+            "title":"supper",
+            "topic":"food"
+        }
+    ],
+    "teams":[
+        {
+            "name":"Jack",
+            "color":"66682",
+            "text_color":"ff838ff",
+            "link":"https://beyondtherainbow/skittle.com"
+        },
+        {
+            "name":"Fishman",
+            "color":"66682",
+            "text_color":"ff838ff",
+            "link":"https://beyondtherainbow/skittle.com"
+        }
+    ],
+    "students":[
+        {
+            "first_name":"Shah",
+            "last_name":"Murthy",
+            "team":"Jack",
+            "role":"Principle Investigator"
+        },
+        {
+            "first_name":"Shah",
+            "last_name":"Murthy",
+            "team":"Jack",
+            "role":"Principle Investigator"
+        }
+    ]
+}

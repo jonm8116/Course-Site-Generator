@@ -1,0 +1,42 @@
+
+{
+    "startHour":"7",
+    "endHour":"20",
+    "undergrad_tas":[
+        {
+            "name":"I know",
+            "email":"doyou@fm.com"
+        },
+        {
+            "name":"We all know",
+            "email":"doyou@fmd.com"
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"TUESDAY",
+            "time":"8_30am",
+            "name":"I know"
+        },
+        {
+            "day":"WEDNESDAY",
+            "time":"9_00am",
+            "name":"I know"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"10_00am",
+            "name":"We all know"
+        },
+        {
+            "day":"WEDNESDAY",
+            "time":"10_30am",
+            "name":"We all know"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"1_00pm",
+            "name":"We all know"
+        }
+    ]
+}

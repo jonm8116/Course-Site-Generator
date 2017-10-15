@@ -1,0 +1,45 @@
+
+{
+    "startHour":"0",
+    "endHour":"23",
+    "undergrad_tas":[
+        {
+            "name":"asdf",
+            "email":"sv@com.edj"
+        },
+        {
+            "name":"jack",
+            "email":"sfd@dfm.com"
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"MONDAY",
+            "time":"1_30am",
+            "name":"jack"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"3_30am",
+            "name":"jack"
+        }
+    ],
+    "site_pages":[
+    ],
+    "recitations":[
+        {
+            "section":"L032",
+            "instructor":"sdf",
+            "day_time":"fw2",
+            "location":"34r2",
+            "first_ta":"f",
+            "second_ta":"fe"
+        }
+    ],
+    "schedules":[
+    ],
+    "teams":[
+    ],
+    "students":[
+    ]
+}

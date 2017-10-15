@@ -1,0 +1,155 @@
+
+{
+    "startHour":"7",
+    "endHour":"20",
+    "undergrad_tas":[
+        {
+            "name":"I know",
+            "email":"doyou@fm.com"
+        },
+        {
+            "name":"We all know",
+            "email":"doyou@fmd.com"
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"TUESDAY",
+            "time":"8_30am",
+            "name":"I know"
+        },
+        {
+            "day":"WEDNESDAY",
+            "time":"9_00am",
+            "name":"I know"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"10_00am",
+            "name":"We all know"
+        },
+        {
+            "day":"WEDNESDAY",
+            "time":"10_30am",
+            "name":"We all know"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"1_00pm",
+            "name":"We all know"
+        }
+    ],
+    "site_pages":[
+    ],
+    "recitations":[
+        {
+            "section":"L08",
+            "instructor":"weknow",
+            "day_time":"asd",
+            "location":"sdf",
+            "first_ta":"I know",
+            "second_ta":"I know"
+        },
+        {
+            "section":"R2",
+            "instructor":"sdf",
+            "day_time":"sf",
+            "location":"fe",
+            "first_ta":"We all know",
+            "second_ta":"I know"
+        }
+    ],
+    "schedules":[
+        {
+            "type":"Holiday",
+            "date":"5/17/2017",
+            "title":"we know",
+            "topic":"wfe",
+            "link":"sdif",
+            "time":"isjf",
+            "criteria":"wfeij"
+        },
+        {
+            "type":"HW",
+            "date":"5/16/2017",
+            "title":"due tonith",
+            "topic":"ewfwe",
+            "link":"wifoj",
+            "time":"sdf",
+            "criteria":"wef"
+        },
+        {
+            "type":"Lecture",
+            "date":"5/16/2017",
+            "title":"idk",
+            "topic":"fwe",
+            "link":"we",
+            "time":"sdf",
+            "criteria":"wef"
+        }
+    ],
+    "teams":[
+        {
+            "name":"child",
+            "color":"8066cc",
+            "text_color":"e6994d",
+            "link":"asdf"
+        },
+        {
+            "name":"dark",
+            "color":"e6e64d",
+            "text_color":"4d66cc",
+            "link":"asdf"
+        }
+    ],
+    "students":[
+        {
+            "first_name":"jack",
+            "last_name":"sdf",
+            "team":"child",
+            "role":"sdf"
+        },
+        {
+            "first_name":"sdf",
+            "last_name":"sdf",
+            "team":"child",
+            "role":"sdf"
+        },
+        {
+            "first_name":"asdf",
+            "last_name":"sdf",
+            "team":"child",
+            "role":"sdf"
+        },
+        {
+            "first_name":"sdf",
+            "last_name":"sd",
+            "team":"child",
+            "role":"sdf"
+        },
+        {
+            "first_name":"asdf",
+            "last_name":"sdf",
+            "team":"dark",
+            "role":"sdf"
+        },
+        {
+            "first_name":"sfd",
+            "last_name":"sdf",
+            "team":"dark",
+            "role":"d"
+        },
+        {
+            "first_name":"asdf",
+            "last_name":"sdf",
+            "team":"dark",
+            "role":"sdf"
+        },
+        {
+            "first_name":"asdf",
+            "last_name":"sdf",
+            "team":"dark",
+            "role":"sd"
+        }
+    ]
+}

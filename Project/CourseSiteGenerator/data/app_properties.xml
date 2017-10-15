@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this properties file is only
+    for the standard controls for an app from the Desktop Java Framework, so
+    it would not include things initialized for the workspace, which is
+    customizable.
+-->
+<properties>
+    <property_list>
+        <property name="APP_TITLE"	    value="TA Manager"></property>
+		<property name="APP_LOGO"	    value="TAManagerLogo.png"></property>
+		<property name="APP_PATH_CSS"	    value="style/"></property>
+		<property name="APP_CSS"	    value="tam_style.css"></property>
+        
+        <!-- PROGRAM ICON FILES -->
+        <property name="NEW_ICON"	    value="New.png"></property>
+        <property name="LOAD_ICON"	    value="Load.png"></property>
+        <property name="SAVE_ICON"	    value="Save.png"></property>
+        <property name="EXIT_ICON"          value="Exit.png"></property> 
+		<!-- ADDING SAVE AS BUTTON ICON-->
+        <property name="SAVE_AS_ICON" 	value="SaveAs.png"></property>
+		<!--EXPORT BUTTON ICON-->
+		<property name="EXPORT_ICON"	value="Export.png"></property>
+		<property name="UNDO_ICON"		value="undo.png"></property>
+		<property name="REDO_ICON"		value="redo.png"></property>
+		<property name="ABOUT_ICON"		value="about.png"></property>
+		
+		
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="NEW_TOOLTIP"		value="Build a new TA Grid"></property>
+        <property name="LOAD_TOOLTIP"		value="Load an existing TA Grid"></property>
+        <property name="SAVE_TOOLTIP"		value="Save the current TA Grid"></property>
+        <property name="EXIT_TOOLTIP"		value="Exit the Application"></property>
+		<!--ADDITIONAL TOOLTIPS-->
+        <property name="SAVE_AS_TOOLTIP"	value="Save the application as a new file"></property>
+		<property name="EXPORT_TOOLTIP"		value="Export document"></property>
+		<!--	EXTRA BUTTON TOOLTIPS-->
+		<property name="UNDO_TOOLTIP"		value="Undo an action"></property>
+		<property name="REDO_TOOLTIP"		value="Redo an action"></property>
+		<property name="ABOUT_TOOLTIP"		value="Open the About page"></property>
+		
+		
+        <!-- ERROR MESSAGES -->
+        <property name="CLOSE_BUTTON_TEXT"              value="Close"></property>
+
+        <property name="NEW_ERROR_MESSAGE"              value="An error occured creating New work."></property>
+        <property name="NEW_ERROR_TITLE"		value="New Work Error"></property>
+        <property name="LOAD_ERROR_MESSAGE"             value="An error occured loading work."></property>
+        <property name="LOAD_ERROR_TITLE"		value="Load Work Error"></property>
+        <property name="SAVE_ERROR_MESSAGE"             value="An error occured saving work."></property>
+        <property name="SAVE_ERROR_TITLE"		value="Save Work Error"></property>
+        <property name="PROPERTIES_LOAD_ERROR_MESSAGE"	value="An error occured loading a properties file."></property>	
+        <property name="PROPERTIES_LOAD_ERROR_TITLE"	value="Properties File Loading Error"></property>
+			
+	
+        <!-- VERIFICATION MESSAGES -->
+	
+        <property name="NEW_COMPLETED_MESSAGE"		value="New Work Ready for Editing"></property>
+        <property name="NEW_COMPLETED_TITLE"		value="New Work Created"></property>
+        <property name="LOAD_COMPLETED_MESSAGE"		value="File Loading Completed and ready for editing"></property>
+        <property name="LOAD_COMPLETED_TITLE"		value="Loading Completed"></property>
+        <property name="SAVE_COMPLETED_MESSAGE"		value="File Saving Completed"></property>
+        <property name="SAVE_COMPLETED_TITLE"		value="Saving Completed"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="Would you like to save your unsaved work first?"></property>
+        <property name="SAVE_UNSAVED_WORK_TITLE"	value="Save unsaved work?"></property>
+		
+		<!--	ABOUT MESSAGES		-->
+		<property name="ABOUT_MESSAGE"		value="Welcome to the Course Site Generator application. This application is used to provide an easy means of creating easy to use and maintainable websites for university professors for any courses they might be teaching. The graphical user-interface allows the user to change any aspects they need to change about the course. The user can control the teaching assistants, recitations, etc. We hope that you will find great uses for this product!"></property>
+		<property name="ABOUT_TITLE"				value="About"></property>
+		<!--	ABOUT MESSAGES		-->
+		
+		
+		<!--	COMBOBOX PROCEED DIALOG	-->
+		<property name="COMBOBOX_PROCEED_TITLE"		value="Change TA Grid"></property>
+		<property name="COMBOBOX_PROCEED_MESSAGE"				value="This may change your work. Would you like to continue?"></property>
+		
+        <property name="NEW_CREATED_MESSAGE"		value="New Work Created but not yet Saved"></property>
+        <property name="WORK_LOADED_MESSAGE"		value="The Work has been Loaded"></property>
+        <property name="WORK_SAVED_MESSAGE"		value="The Work has been Saved"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="Do you want to save your unsaved work first?"></property>
+		<property name="SAVE_WORK_TITLE"		value="Save your work"></property>
+		<property name="LOAD_WORK_TITLE"		value="Select work file to load"></property>
+		<property name="WORK_FILE_EXT"			value="json"></property>
+		<property name="WORK_FILE_EXT_DESC"		value="TA Office Hours"></property>
+
+        <!-- WORKSPACE CONTROLS STUFF -->        
+        <property name="TAS_HEADER_TEXT"                value="Teaching Assistants"></property>
+        <property name="NAME_COLUMN_TEXT"               value="Name"></property>
+        <property name="EMAIL_COLUMN_TEXT"              value="Email"></property>
+		<!--	NEW ADDED VALUE	-->
+		<property name="UG_CHECK_BOX"					value="Undergrad"></property>		
+		<!--	NEW ADDED VALUE	-->
+        <property name="NAME_PROMPT_TEXT"               value="Name"></property>
+        <property name="EMAIL_PROMPT_TEXT"              value="Email"></property>
+        <property name="ADD_BUTTON_TEXT"                value="Add TA"></property>
+        <property name="OFFICE_HOURS_SUBHEADER"         value="Office Hours Grid"></property>
+        
+        <!-- WORKSPACE ERROR MESSAGES -->
+        <property name="MISSING_TA_NAME_TITLE"          value="Missing TA Name"></property>
+        <property name="MISSING_TA_NAME_MESSAGE"        value="You must provide a TA Name"></property>
+        <property name="MISSING_TA_EMAIL_TITLE"         value="Missing TA Email"></property>
+        <property name="MISSING_TA_EMAIL_MESSAGE"       value="You must provide a TA Email"></property>
+        <property name="TA_NAME_AND_EMAIL_NOT_UNIQUE_TITLE"     value="TA Name and Email Not Unique"></property>
+        <property name="TA_NAME_AND_EMAIL_NOT_UNIQUE_MESSAGE"   value="You must provide a unique TA Name and Email"></property>
+		<!-- ADD NEW ERROR MSG-->
+		<property name="NOT_SELECTED_COMBOBOX_TITLE"			value="ComboBox not selected"></property>
+		<property name="NOT_SELECTED_COMBOBOX_MESSAGE"			value="You must pick a TA start and end time"></property>
+		<property name="COMBOBOX_TIME_ERROR_TITLE"				value="Start time is greater than end time"></property>
+		<property name="COMBOBOX_TIME_ERROR_MESSAGE"			value="Please pick a different time value"></property>
+		<!-- TAB TITLE VALUES -->
+		<property name="COURSE_DETAILS_TAB"				value="Course Details"></property>
+		<property name="COURSE_TA_DATA_TAB"				value="TA Data"></property>
+		<property name="COURSE_RECITATION_TAB"			value="Recitation Data"></property>
+		<property name="COURSE_SCHEDULE_TAB"			value="Schedule"></property>
+		<property name="COURSE_PROJECT_TAB"				value="Project Teams"></property>
+		<!--COURSE DETAILS TAB INFO -->
+		<property name="COURSE_INFO_LABEL"				value="Course Info"></property>
+		<property name="COURSE_SUBJECT_LABEL"			value="Subject"></property>
+		<property name="COURSE_SUBJECT_NUMBER"			value="Number"></property>
+			<!--COURSE DETAILS SEMESTER -->
+			<property name="COURSE_SEMESTER_LABEL"		value="Semester"></property>
+			<property name="COURSE_YEAR_LABEL" 			value="Year"></property>
+			<property name="COURSE_INFO_TITLE"			value="Title:"></property>
+			<property name="COURSE_INSTR_NAME"			value="Instructor Name:"></property>
+			<property name="COURSE_INSTR_HOME"			value="Instructor Home:"></property>
+			<property name="COURSE_EXPORT_DIR_LABEL"	value="Export Dir:"></property>
+			<property name="COURSE_EXPORT_DIR_BUTTON"	value="Change"></property>
+			<!-- SITE TEMPLATE INFO -->
+			<property name="COURSE_SITE_TEMPLATE_TITLE"	value="Site Template"></property>
+			<property name="COURSE_SITE_TEMPLATE_TEXT"	value="The selected directory should include the full site template. Including HTML files"></property>
+			<property name="SITE_TEMPLATE_BUTTON_TEXT"	value="Select Template Directory"></property>
+			<property name="SITE_PAGES_LABEL"			value="Site Pages"></property>
+			<!--TABLE COLUMN VALUES-->
+			<property name="USE_COLUMN_TEXT"			value="Use"></property>
+			<property name="NAVBAR_COLUMN_TEXT"			value="Navbar Title"></property>
+			<property name="FILE_NAME_COLUMN_TEXT"		value="File Name"></property>
+			<property name="SCRIPT_COLUMN_TEXT"			value="Script"></property>
+			
+			<!-- PAGE STYLE PANE -->
+			<property name="PAGE_STYLE_LABEL"			value="Page Style"></property>
+			<property name="BANNER_IMG_LABEL"			value="Banner School Image:"></property>
+			<property name="BANNER_IMG_BUTTON_TEXT"		value="Change"></property>
+			<property name="LEFT_FOOT_IMG_LABEL"		value="Left Footer Image:"></property>
+			<property name="LEFT_FOOT_IMG_BUTTON_TEXT"	value="Change"></property>
+			<property name="RIGHT_FOOT_IMG_LABEL"		value="Right Footer Image:"></property>
+			<property name="RIGHT_FOOT_IMG_BUTTON_TEXT"	value="Change"></property>
+			<property name="STYLESHEET_LABEL"			value="Stylesheet"></property>
+			<property name="FOOTNOTE_LABEL"				value="NOTE: New stylesheets may be placed in work/css to be selectable"></property>
+		
+		<!-- RECITATION TAB DATA -->
+		<property name="RECITATION_LABEL"				value="Recitations"></property>
+		<property name="RECITATION_MINUS_LABEL"			value="-"></property>
+		<property name="REC_TABLE_SECTION_TEXT"			value="Section"></property>
+		<property name="REC_TABLE_INSTRUCTOR_TEXT"		value="Instructor"></property>
+		<property name="REC_TABLE_DAYTIME_TEXT"			value="Day/Time"></property>
+		<property name="REC_TABLE_LOCATION_TEXT"		value="Location"></property>
+		<property name="REC_TABLE_TA_TEXT"				value="TA"></property>
+		<property name="ADD_EDIT_LABEL"					value="Add/Edit"></property>
+		<property name="CLEAR_LABEL"					value="Clear"></property>
+		
+		<!-- SCHEDULE DATA TAB -->
+		<property name="SCHEDULE_LABEL"					value="Schedule"></property>
+		<property name="CALENDAR_BOUNDARIES_LABEL"		value="Calendar Boundaries"></property>
+		<property name="SCHEDULE_ITEMS_LABEL"			value="Schedule Items"></property>
+		<property name="CALENDAR_START_TIME_LABEL"		value="Starting Monday:"></property>
+		<property name="CALENDAR_END_TIME_LABEL"		value="Ending Friday:"></property>
+		<property name="CALENDAR_TABLE_TYPE"			value="Type"></property>
+		<property name="CALENDAR_TABLE_DATE"			value="Date"></property>
+		<property name="CALENDAR_TABLE_TITLE"			value="Title"></property>
+		<property name="CALENDAR_TABLE_TOPIC"			value="Topic"></property>
+		<property name="TIME_LABEL"						value="Time"></property>
+		<property name="LINK_LABEL"						value="Link"></property>
+		<property name="CRITERIA_LABEL"					value="Criteria"></property>
+		
+		<!-- PROJECT DATA TAB -->
+		<property name="PROJECT_LABEL"					value="Project"></property>
+		<property name="TEAMS_LABEL"					value="Teams"></property>
+		<property name="NAME_COLUMN_TEXT"				value="Name"></property>
+		<property name="COLOR_COLUMN_TEXT"				value="Color (hex#)"></property>
+		<property name="TEXT_COLOR_COLUMN_TEXT"			value="Text color (hex#)"></property>
+		<property name="LINK_COLUMN_TEXT"				value="Link"></property>
+		
+		
+		
+		<!-- NEW STUFF ADDED AFTER INITIAL TRANSLATE -->
+		<property name="COLOR_LABEL"					value="Color"></property>
+		<property name="TEXT_COLOR_LABEL"				value="Text Color"></property>
+		<property name="STUDENT_LABEL"					value="Student"></property>
+		<property name="FIRST_NAME_LABEL"				value="First Name"></property>
+		<property name="LAST_NAME_LABEL"				value="Last Name"></property>
+		<property name="TEAM_LABEL"						value="Team"></property>
+		<property name="ROLE_LABEL"						value="Role"></property>
+		
+		<!--	NEW ADDED MATERIAL 	-->
+		<!--	ADDED ERROR MESSAGES -->
+		<property name="REC_MISSING_SECTION"			value="Missing Section"></property>
+		<property name="REC_MISSING_INSTR_NAME"			value="Missing Instructor Name"></property>
+		<property name="REC_MISSING_DAY_TIME"			value="Missing Day and Time"></property>
+		<property name="REC_MISSING_LOCATION"			value="Missing Location"></property>
+		<property name="REC_MISSING_TA"					value="Missing Recitation TA"></property>
+		
+		<!--	NEW ADDED MATERIAL	-->
+		<property name="MISSING_DATE"			value="Missing Date value"></property>
+		<property name="MISSING_TITLE"			value="Missing Title value"></property>
+		<property name="MISSING_TYPE"			value="Missing Schedule type"></property>
+		<!--	TEAM STUFF		-->	
+		<property name="TEAM_MISSING_NAME"		value="Missing Team Name"></property>
+		<property name="TEAM_MISSING_COLOR"		value="Missing Team color"></property>
+		<property name="TEAM_MISSING_TEXT_COLOR" value="Missing Team text color"></property>
+		<property name="TEAM_MISSING_LINK"		value="Missing Team link"></property>
+		<!--	STUDENT STUFF	-->
+		<property name="STUDENT_MISSING_FIRST_NAME"		value="Missing student First Name"></property>
+		<property name="STUDENT_MISSING_LAST_NAME"		value="Missing student Last Name"></property>
+		<property name="STUDENT_MISSING_ROLE"			value="Missing student role"></property>
+		<property name="STUDENT_MISSING_TEAM"			value="Missing student team"></property>
+		
+		<!--	COURSE DETAILS JSON	-->
+		<property name="COURSE_INFO_SUBJECT"	value="Subject"></property>
+		
+		
+		<!--	SCHEDULE DATE PICKER -->	
+		<property name="START_DATE_MONDAY"		value="The starting date can only be Monday"></property>
+		<property name="END_DATE_FRIDAY"		value="The ending date can only be Friday"></property>
+		<property name="SCHEDULE_CALENDAR_BOUNDARY_ERROR"	value="Starting Monday can't be before ending Friday"></property>
+		
+		
+    </property_list>
+    <property_options_list>
+        <property_options name="OFFICE_HOURS_TABLE_HEADERS">
+            <option>Start Time</option>
+            <option>End Time</option>
+        </property_options>
+        <property_options name="DAYS_OF_WEEK">
+            <option>MONDAY</option>
+            <option>TUESDAY</option>
+            <option>WEDNESDAY</option>
+            <option>THURSDAY</option>
+            <option>FRIDAY</option>
+        </property_options>
+    </property_options_list>
+</properties>
